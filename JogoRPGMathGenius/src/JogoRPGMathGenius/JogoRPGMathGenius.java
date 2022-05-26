@@ -65,6 +65,14 @@ public class JogoRPGMathGenius {
 			
 			//1ª pergunta
 			do {
+			System.out.println("Potenciação (Grécia Antiga): (250a.c) Seja bem vindo a Grécia Antiga! Você está em 250a.c, onde multiplicar os números ainda é uma incógnita!\r\n"
+					+ "A humanidade demorou milhares de anos para chegar a contagem simples até os cálculos de potenciação. Uma importante etapa desse percurso foi desenvolvida\r\n"
+					+ "por Arquimedes, na Grécia Antiga. Esse matemático viveu no século 3 a.c e fez importantes contribuições tanto no desenvolvimento teórico, quanto na prática. \r\n"
+					+ "Em suas especulações, Arquimedes resolveu calcular quantos grãos de areia eram necessários para encher o Universo. Essa questão parecia fundamental a Arquimedes. Em sua época,\r\n"
+					+ "o Universo era considerado um sistema de esferas com o mesmo centro: o Sol. Os planetas estavam fixados na superfície de cada esfera.\r\n"
+					+ "Potenciação é a operação que envolve a multiplicação sucessiva de um número por ele mesmo. A potenciação é uma operação da Matemática utilizada quando existe a multiplicação \r\n"
+					+ "sucessiva de um número por ele mesmo várias vezes.\r\n"
+					);
 			System.out.println("*--Potenciação--**");
 			System.out.println("Pergunta 1: (3^6 . 3^-2 ) / 3^4 é igual a ?");
 			System.out.println("a) 0"); 
@@ -204,6 +212,13 @@ public class JogoRPGMathGenius {
         tentativas = 0; 
 		acertou = false;
         do {
+        	System.out.println("Seja bem vindo ao mundo Arabe! Você está no início dos anos 1400! O inverso da potenciação ainda é um mistério!\r\n"
+        			+ "O conceito foi criado por matemáticos árabes. Eles imaginavam um número, por exemplo 25, e diziam que ele havia crescido de uma \"raiz quadrada\" com área igual a 25. \r\n"
+        			+ "Era preciso, então, \"extrair a raiz\" e perceber que cada lado do quadrado media 5. A ideia foi adotada por matemáticos europeus no fim da Idade Média. \r\n"
+        			+ "Ao traduzir livros árabes, eles encontraram o conceito e passaram a aplicá-lo. Para simbolizar a raiz, os europeus optaram pela letra \"r\" minúscula, por ser a primeira letra da palavra radix - que significa \"raiz\" em latim.\r\n"
+        			+ "A radiciação é a operação matemática inversa da potenciação. Desta forma, podemos encontrar o resultado de uma raiz buscando a potenciação, que tem como resultado a raiz \r\n"
+        			+ "proposta. Note que se o radicando (x) é um número real e o índice (n) da raiz é um número natural, o resultado (a) é a raiz enésima de x se an = x.\r\n"
+        			);
             System.out.println("*--Radiciação--*");
         	System.out.println("Pergunta 4: Dos números abaixo, marque aquele que possui uma raiz quadrada exata.");
             System.out.println("a) 600"); 
@@ -343,6 +358,14 @@ public class JogoRPGMathGenius {
         tentativas = 0; 
 		acertou = false;
         do {
+        	System.out.println("Seja bem vindo a França! Você está no início dos anos 1500! Onde um matemático algebrista francês nascido em Fontenay-le-Comte, que defendeu o uso das frações decimais em lugar das \r\n"
+        			+ "sexagesimais em Canon-mathematicus (1579), aperfeiçoou as notações algébricas e introduziu métodos gráficos e a \r\n"
+        			+ "trigonometria para a solução de equações, no seu Isagoge (1591). Foi com o francês Viète que o método resolutivo das equações do 2º grau ganharam como símbolos, as letras. \r\n"
+        			+ "Viète é o responsável pela modernização da álgebra. Seus trabalhos foram desenvolvidos por outro francês, denominado René Descartes. \r\n"
+        			+ "Podemos observar que a expressão matemática utilizada atualmente para a resolução de uma equação do 2º grau não deve ser atribuída somente a uma pessoa, mas a vários \r\n"
+        			+ "pesquisadores que através de inúmeros trabalhos. A equação do 2º grau é representada por: ax²+bx+c=0. A equação de 2º grau pode ser representada por ax²+bx+c=0, em que os coeficientes a, b e c são números reais, \r\n"
+        			+ "com a ≠ 0.\r\n"
+        			+ "");
             System.out.println("*--Equação de 2º grau:--*");
         	System.out.println("Pergunta 7: Determine qual é a equação do 2° grau que possui como raízes os números 3 e – 7.");
             System.out.println("a) x² + 4x – 20 = 0"); 
@@ -482,6 +505,12 @@ public class JogoRPGMathGenius {
         tentativas = 0; 
         acertou = false;
         do {
+        					System.out.println("Seja bem vindo a Alemanha! Você está no final dos anos 1600, onde os sistemas numéricos já haviam sido idealizados, porém, Leibniz os refinou e finalmente fundou os números binários! \r\n"
+        					+ "O sistema binário ou de base 2 é um sistema de numeração posicional em que todas as quantidades se representam com base em dois números, \r\n"
+        					+ "ou seja, zero e um (0 e 1).\r\n"
+        					+ "Sistema Octal é um sistema de numeração cuja base é 8, ou seja, utiliza 8 símbolos para a representação de quantidade. No ocidente, \r\n"
+        					+ "estes símbolos são os algarismos arábicos.\r\n"
+        					+ "O sistema hexadecimal é um sistema de numeração posicional que representa os números em base 16, portanto empregando 16 símbolos.");
                             System.out.println("*--Sistema de numeração--*");
         		        	System.out.println("Pergunta 10: O valor em binário do decimal 42 é ?");
         		            System.out.println("a) 0101001"); //resposta correta
@@ -612,10 +641,18 @@ public class JogoRPGMathGenius {
         						System.out.println("Você errou e acumulou 0 pontos");
         					}
         
-                        //13ª pergunta
+        //13ª pergunta
         		        tentativas = 0; 
         				acertou = false;
         		        do {
+        		        	System.out.println("Seja bem vindo aos Estados Unidos! Você está no início do século XX! As contas básicas com incógnitas ainda não estavam definidas.\r\n"
+        		        			+ "Em matemática, o polinômio de Alexander é um nó constante que atribui um polinômio com coeficientes inteiros para cada tipo de nó. \r\n"
+        		        			+ "James Waddell Alexander II descobriu o primeiro nó de polinômio em 1923. Em 1969, John Conway mostrou uma versão deste polinômio, agora chamado de Polinômio de \r\n"
+        		        			+ "Alexander–Conway, pode ser calculado usando uma relação de Skein, embora o seu significado não tenha sido realizado até a descoberta do polinômio de Jones, em 1984.\r\n"
+        		        			+ "olinômios são a adição ou subtração algébrica de monômios. Estes, por sua vez, são o produto entre números conhecidos e desconhecidos (incógnitas). Cada monômio que compõe \r\n"
+        		        			+ "um polinômio é chamado de termo.\r\n"
+        		        			+ "\r\n"
+        		        			+ "");
         		            System.out.println("*--Polinômios--*");
         		        	System.out.println("Pergunta 13: Subtraia (x^2 + 12x – 9) – (8x^2 + 7x – 1). O resultado é:");
         		            System.out.println("a) 9x^2 + 5x - 10"); 
@@ -786,6 +823,11 @@ public class JogoRPGMathGenius {
 }
 
 	
+
+
+
+
+
 
 
 
